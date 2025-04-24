@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: amazon-textract-textractor
-  version: "1.9.1"
+  version: "1.9.2"
   python_min: "3.9"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: e1ed95d4e0bfb685037e484da69c16ec5d09d1e6a1f3d1a163ee8d8aa1693206
+  sha256: ed69f88b33a6b131454fefc7823c8eb8cf18ef29a02faef87c0023ab425faa02
 
 build:
   number: 0
